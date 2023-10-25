@@ -1,0 +1,1155 @@
+
+<!DOCTYPE html>
+<html class='no-js' data-request-country='NG' dir='ltr' lang='en'>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="https://cache-landingpages.services.handy.com/assets/favicon-465fb4e7d7152f5abb6b2ecf7330aefa8a067f174110dcd80324b56aeedfea59.ico" />
+<meta charset='utf-8'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"fee8387e35","applicationID":"153245944","transactionName":"IQwNRkoKXlVcSh5KAwQKDVdKHB1JWF9US0kKDA5X","queueTime":0,"applicationTime":138,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"fee8387e35",applicationID:"153245944"};;/*! For license information please see nr-loader-rum-1.236.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>_,lF:()=>E,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>j});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,r.Qy)(e,a[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(385),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function _(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function j(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function E(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.236.0",i="PROD",o="CDN"},385:(e,t,n)=>{n.d(t,{FN:()=>a,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>o,il:()=>r,pL:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=""+o?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(r&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=[...s[e]];function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),o=n(1284),a=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!d.aborted||i){t&&o&&t.emit(e,n,r);for(var a=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(a,n);var f=_()[c[e]];return f&&f.push([h,e,n,a]),a}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=_();h.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!_()[c[e]]}function _(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),o=n(8e3),a=n(3325);const s={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,o.L)(t,a.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function d(e,t){a()[e]=t}function u(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>o});var r=n(5763),i=n(2177);class o{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),(0,i.sU)(e,A),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),p();const _=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(v,r,!0,o||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,_,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),_}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",733:"session_trace-aggregate",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"ac76d497",147:"3dc53903",148:"1a20d5fe",242:"2a64278a",317:"49e41428",348:"bd6de33a",412:"2f55ce66",439:"30bd804e",538:"1b18459f",590:"cf0efb30",675:"ae9f91a8",733:"83105561",786:"06482edd",860:"03a8b7a5",873:"e6b09d52",898:"998ef92b"}[e]+"-1.236.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=6,i.p="https://js-agent.newrelic.com/",(()=>{var e={6:0,352:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,d=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(3325),t=i(5763);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(9144);var s=i(5546),c=i(385),d=i(8e3),u=i(5938),l=i(3960),f=i(50);class g extends u.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,d.R)(e,n)}importAggregator(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=c.il&&!0===(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let r;this.onAggregateImported=new Promise((e=>{r=e}));const o=async()=>{let t;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));t=e(this.agentIdentifier)}}catch(e){(0,f.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",e)}try{if(!this.shouldImportAgg(this.featureName,t))return void(0,d.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:n}=await i.e(412).then(i.bind(i,8582)),{Aggregate:o}=await n(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,e),r(!0)}catch(e){(0,f.Z)("Downloading and initializing ".concat(this.featureName," failed..."),e),this.abortHandler?.(),r(!1)}};c.il?(0,l.b)((()=>o()),!0):o()}shouldImportAgg(n,r){return n!==e.D.sessionReplay||!1!==(0,t.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!r?.isNew||!!r?.state.sessionReplay)}}var p=i(7633),h=i(7894);class v extends g{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.Tt)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,h.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,h.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var m=i(1117),b=i(1284);class y extends m.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,b.D)(e,(function(e,n){t[e]=w(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,b.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=w(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=w(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=x(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function w(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function x(e){return"object"!=typeof e?[]:(0,b.D)(e,D)}function D(e,t){return t}var _=i(8632),j=i(4402),E=i(4351);var k=i(7956),T=i(3239),I=i(9251);class N extends g{static featureName=I.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,I.t,r),c.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,k.N)((()=>(0,s.p)("docHidden",[(0,h.z)()],void 0,I.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,h.z)()],void 0,I.t,this.ee))),this.importAggregator())}}var P=i(3081);class S extends g{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);c._A?(this.agentIdentifier=t,this.sharedAggregator=new y({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(v),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()):(0,f.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const r=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.sessionReplay:return[e.D.sessionTrace];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);r.every((e=>n[e]))||(0,f.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(r),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,f.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[v,N,S],loaderType:"lite"})})(),window.NRBA=o})();</script>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+<title>House Cleaning &amp; Handyman Services | Handy</title>
+<script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"fee8387e35",applicationID:"133284765",sa:1}
+</script>
+
+<meta name="description" content="House cleaning, home cleaning, furniture assembly, TV mounting and other handyman services. Book in 60 seconds. Top-rated local professionals. Handy Happiness Guarantee." />
+<meta name="author" content="Handy for Pros is Now Angi Services" />
+<meta name="og:site_name" content="Handy for Pros is Now Angi Services" />
+<link href="https://www.handy.com/" rel="canonical" />
+
+
+<link rel="stylesheet" media="screen" href="https://cache-landingpages.services.handy.com/assets/application-2cae7f4336f8d9036d52a4eaed7f92ca5a53a8cefde7f3e309779feb18112fb0.css" />
+
+<!-- asynchronous google analytics snippet -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-31442860-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<script class="handy-analytics" id="handy-analytics--properties">
+  window.Handy = window.Handy || {};
+  (function setupHandyAnalytics(){
+    window.Handy.analytics = window.Handy.analytics || {"utm":{"handy_utm_source":null,"handy_utm_campaign":null,"handy_utm_coupon":null,"handy_utm_term":null,"handy_utm_medium":null,"handy_utm_content":null},"env":{"scully_fingerprint":["f61e014e-5439-4aec-b1d2-39ac89120a5e","45877b80-bef0-4387-905f-8bbebc0bd9ce","936de6b5-bd9b-4c89-ad4d-c5d48742b09b","f02f2481-da6a-4612-b5cc-f3cd24c3d273","80179280-47c2-44b9-9b61-e76d576affaa","8262a1e2-4111-4016-97f6-b3379cf61f43","f76bb87a-24d8-4f46-84fe-e3f2cd131a26","ad30d738-4fee-4801-9852-8f37c732e2db","148a89d5-a2dd-4fde-ae5b-af77c162b066","9d39ed29-6db1-4512-8367-892b9167c51c","22f1e458-b0a0-459d-bed5-5c5fe7fa2c7e","9085bc5d-35ff-40a9-a7a8-37ff61c626d3","4a005674-3d4f-409a-88a9-d413af06e5fd","8a27e092-a629-4bc8-8c5a-5a74cd8041d0","022ae9ae-f5c5-40ef-bb5c-3dccfd6930ab","0b12fa2e-0a04-47b9-9150-edf9162bb68f","a48b4f5d-5bc2-473b-af88-25c2756d1008","20def8ec-aece-496e-80bc-8b608943c526","32faf179-c8fc-488f-a8d1-ff864e3be35e","72128813-e90f-45bf-8610-42980db57e90","0982159d-bc11-4173-b706-3123595ec604","b108499f-2e65-44e0-bb1d-fb8adfd675ef","30ecbfb0-ac32-4782-89c9-7aa751b9c540","3ef14d53-b7e4-408b-bb82-11106f2e12f4","78476689-4e12-4656-b509-f50e7c7190ee","34264c8c-942e-4051-b79f-bb3b67a4b9e9","8b1b9adb-5c3e-4fb1-a3d3-04a5db56a0d0","f39efb97-6942-4f29-ab22-19872ff8138c","7eb84b52-de6a-420f-ab00-739b72dcc716","281f397f-066f-4cca-8161-184db8a399e2","aee2200d-50e7-4cdb-b707-47bfea3e57fc","66d4b66b-ca20-4259-9fed-e0cd6856997c","65cf9460-893b-4155-bf93-a20ebb96167f","b5bbd335-1824-4e09-9810-2564222500c9","0d8c92ef-07bb-4bdb-9e78-698da974ba61","2db075b9-0c02-4e1e-9e81-2afaeeb4156b","bf779d91-45fa-44ed-98d7-05802e5c24b3","86ff8e61-251b-49d6-9613-f1fac2df76d9","1dcebcb7-550f-4c69-873e-57fc6734b2d3","0644d3ac-1eec-4513-9d16-7c41a61c41cf"],"browser_uid":"5mw1P3EvX0pzJN33gmzwQ7wrDgX5Nb8b4LyLkkC7hoegbDbwG3RSmcw/eGnxKodQVZeh42mi61MQekppDUBaqw==","from_native":false,"native_session_uid":null},"user":{"impersonating":false,"brand":"handy","new":false},"booking":{},"quote_request":{},"pageInfo":{"bookingId":null,"conversionType":null,"serviceName":null,"serviceCategory":null,"serviceId":null,"recurringFrequency":null,"zipcode":null,"dateOfBooking":null,"timeOfBooking":null,"dateAdded":null,"hourlyRate":null,"bookingHrs":null,"discount":null,"couponCode":null,"confirmedBooking":false,"cleaningType":null,"numberCreatedBookings":0,"isCleaning":0,"isCommit":0,"isOneTime":0,"isRecurring":0},"customerInfo":{"newUser":1,"userLoggedIn":false,"userHasAccount":false}};
+  }());
+  window.dataLayer ||= [];
+  window.dataLayer.push(window.Handy.analytics);
+</script>
+
+  <script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+    0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+    for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+  mixpanel.init("285f70ac22992c5c5a2a0639a095aa59");</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31442860-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA‌-31442860-1', { 'optimize_id': 'GTM-MDBGCQC'});
+</script>
+<!-- Google Tag Manager -->
+<script class="handy-analytics" id="gtm">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JWM6VD');</script>
+<!-- End Google Tag Manager -->
+
+
+<script>
+  window.mixpanelMetadata = {"product_type":"consumer","referer":null,"browser_uid":"5mw1P3EvX0pzJN33gmzwQ7wrDgX5Nb8b4LyLkkC7hoegbDbwG3RSmcw/eGnxKodQVZeh42mi61MQekppDUBaqw==","device":"web","session_id":"effcbec607d122f4","session_uid":"5mw1P3EvX0pzJN33gmzwQ7wrDgX5Nb8b4LyLkkC7hoegbDbwG3RSmcw/eGnxKodQVZeh42mi61MQekppDUBaqw==_effcbec607d122f4","session_event_count":0,"logged_in":false};
+  
+  var onLoadMixpanelData = {"event":"home_page_shown","event_context":"home_page"};
+  // in case onLoadMixpanelData is not set
+  if (onLoadMixpanelData != null) {
+    var eventName = onLoadMixpanelData["event"];
+    delete onLoadMixpanelData["event"];
+  
+    var allProperties = Object.assign(
+      {}, onLoadMixpanelData, window.mixpanelMetadata
+    ); //merge properties together
+    mixpanel.track(eventName, allProperties);
+  }
+</script>
+
+</head>
+<body class='template-home' id='homepage-page'>
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JWM6VD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class='off-canvas position-right' data-content-scroll='false' data-off-canvas='' id='off-canvas-right-push'>
+<ul class='mobile-nav-menu menu vertical drilldown' data-back-button='&lt;li class=&#39;js-drilldown-back&#39;&gt;&lt;a class=&#39;back-title&#39;&gt;&lt;/a&gt;&lt;/li&gt;' data-drilldown=''>
+<br>
+<li class='nav-link'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='login' data-mixpanel-trigger='click' href='/login'>
+Log In
+</a>
+</li>
+<li class='nav-link'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='help' data-mixpanel-trigger='click' href='/help'>
+Help
+</a>
+</li>
+<li class='nav-link'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='apply' data-mixpanel-trigger='click' href='/apply'>
+Become a Professional
+</a>
+</li>
+<div class='nav__line'></div>
+<li class='nav-link'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='services' data-mixpanel-trigger='click' href='/services'>
+All Services
+</a>
+</li>
+<li class='nav-link'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='services' data-mixpanel-trigger='click' href='#'>
+Services by Category
+</a>
+<ul class='menu vertical nested'>
+</ul>
+</li>
+<li class='nav-link'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='products' data-mixpanel-trigger='click' href='http://shop.handy.com'>
+Shop
+</a>
+</li>
+<div class='nav__line'></div>
+<li class='nav-link'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='blog' data-mixpanel-trigger='click' href='/blog'>
+Blog
+</a>
+</li>
+<li class='nav-link nav-menu__control'>
+<a href='/about'>
+About
+</a>
+<ul class='menu vertical'>
+<li class='nav-link'>
+<a href='/handy-guarantee'>
+The Handy Happiness Guarantee
+</a>
+</li>
+<li class='nav-link'>
+<a href='/press'>
+Press
+</a>
+</li>
+<li class='nav-link'>
+<a href='/retail'>
+Retail Partnerships
+</a>
+</li>
+<li class='nav-link'>
+<a href='/scholarship'>
+Scholarship
+</a>
+</li>
+<li class='nav-link'>
+<a href='http://blog.handy.com/'>
+Blog
+</a>
+</li>
+<li class='nav-link'>
+<a href='/careers'>
+Careers
+</a>
+</li>
+<li class='nav-link'>
+<a href='/help'>
+Contact Us
+</a>
+</li>
+<div class='nav__line'></div>
+<li class='nav-link'>
+<a href='/privacy'>
+Privacy
+</a>
+</li>
+<li class='nav-link'>
+<a href='/privacy#section5a'>
+CA Pre-Collection Notice
+</a>
+</li>
+<li class='nav-link'>
+<a href='/do_not_sell'>
+Do Not Sell or Share My Personal Information
+</a>
+</li>
+<li class='nav-link'>
+<a href='/cookies'>
+Cookies
+</a>
+</li>
+<li class='nav-link'>
+<a href='/terms'>
+Terms
+</a>
+</li>
+<li>
+<a>
+<form html="{:class=&gt;&quot;nav__select&quot;}" action="/country_select" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<select name="request_country" id="request_country" onchange="this.form.submit()"><option selected="selected" value="US">United States</option>
+<option value="CA">Canada</option>
+<option value="GB">United Kingdom</option></select>
+</form>
+
+</a>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+
+<div class='off-canvas-content' data-off-canvas-content=''>
+<script src="https://cache-landingpages.services.handy.com/assets/application-97e37d2e044e4420f7ad4a4ea07c375282d14a9487e88cc3057f035a520733c0.js"></script>
+<script src="https://cache-landingpages.services.handy.com/assets/accessibility-cca6ca545c47db43401f96309237acaf72f7cb060e90d5adc5b893a38c66cd4c.js"></script>
+
+
+
+<div id='page_container'>
+<header id='header' role='banner'>
+<section id='header'>
+<div class='grid-container'>
+<div class='navigation'>
+<nav class='grid-x align-middle navigation--collapsed title-bar' data-hide-for='large' data-responsive-toggle='navigation--expanded'>
+<div class='navigation__logo left'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='home' data-mixpanel-trigger='click' href='/home'>
+<img src="https://cache-landingpages.services.handy.com/assets/pages/region/handy_logo-e5d858d96595ec001c5268a2d7a0f91800da2c7c2f963a5307154917289c347a.svg" alt="Handy logo" />
+</a>
+</div>
+<button class='menu-icon right' data-toggle='off-canvas-right-push' type='button'></button>
+</nav>
+<nav class='align-middle stacked-for-medium navigation--expanded top-bar' id='navigation--expanded'>
+<div class='navigation__logo show-for-large'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='home' data-mixpanel-trigger='click' href='/home'>
+<img src="https://cache-landingpages.services.handy.com/assets/pages/region/handy_logo-e5d858d96595ec001c5268a2d7a0f91800da2c7c2f963a5307154917289c347a.svg" alt="Handy logo" />
+</a>
+</div>
+<div class='navigation__left top-bar-left'>
+<ul class='menu dropdown all-services-menu' data-dropdown-menu='' data-options='closingTime:0;'>
+<li class='all-services mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='services' data-mixpanel-trigger='click' href='/services'>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_hover' data-mixpanel-trigger='hover-once' href='/services'>
+All Services
+<i class='fal fa-angle-down fa-shown'></i>
+<i class='fal fa-angle-up fa-hidden'></i>
+</a>
+</li>
+</ul>
+<div class='grid-container services-panel'>
+<div class='grid-x'>
+<div class='cell'>
+<ul class='services-columns two-columns'>
+</ul>
+</div>
+</div>
+<div class='grid-x align-center'>
+<div class='cell all-services__button'>
+<a class='button radius mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='services' data-mixpanel-trigger='click' href='/services'>
+See All Services
+</a>
+</div>
+</div>
+</div>
+<script>
+  $('.services-panel').hover(
+    function() {
+      $('.all-services-menu').addClass('chevron-hack');
+    },
+    function() {
+      $('.all-services-menu').removeClass('chevron-hack');
+    }
+  );
+</script>
+
+<ul class='menu has-submenu dropdown' data-dropdown-menu='' data-options='closingTime:0;'>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='products' data-mixpanel-trigger='click' href='http://shop.handy.com'>
+Shop
+</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='blog' data-mixpanel-trigger='click' href='/blog'>
+Blog
+</a>
+</li>
+</ul>
+</div>
+<div class='navigation__right top-bar-right'>
+<ul class='menu dropdown' data-dropdown-menu='' data-options='closingTime:0;'>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='apply' data-mixpanel-trigger='click' href='/apply'>
+Become a Pro
+</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='help' data-mixpanel-trigger='click' href='/help'>
+Help
+</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='nav_bar_refinery' data-mixpanel-event='nav_bar_cta' data-mixpanel-source='login' data-mixpanel-trigger='click' href='/login'>
+Log In
+</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</section>
+
+
+</header>
+<main id='page' role='main'>
+<div class='home-page'>
+<section class='grid-container'>
+<div class='grid-x'>
+<div class='cell'>
+<h1 class='title'>
+The easy, reliable way to take care of your home.
+</h1>
+</div>
+</div>
+
+</section>
+<section id='header-buttons'>
+<div class='grid-container show-for-small-only full'>
+<div class='grid-x'>
+<div class='cell nav-button hover-cleaner-green'>
+<a class="card-link mixpanel" data-mixpanel-source="cleaning_header_button" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/services/home-cleaning"></a>
+<div class='spray-icon'></div>
+<div class='button-title'>
+Home Cleaning
+</div>
+<i class='far fa-angle-right button-arrow'></i>
+</div>
+<div class='cell nav-button hover-handyman-teal'>
+<a class="card-link mixpanel" data-mixpanel-source="services_header_button" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/services/"></a>
+<div class='wrench-icon'></div>
+<div class='button-title'>
+All Services
+</div>
+<i class='far fa-angle-right button-arrow'></i>
+</div>
+<div class='cell nav-button hover-perfect-blue'>
+<a class="card-link mixpanel" data-mixpanel-source="products_header_button" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="https://shop.handy.com"></a>
+<div class='shop-icon'></div>
+<div class='button-title'>
+The Home Shop
+</div>
+<i class='far fa-angle-right button-arrow'></i>
+</div>
+</div>
+</div>
+<div class='grid-container show-for-medium'>
+<div class='grid-x grid-margin-x'>
+<div class='cell medium-3 nav-button hover-cleaner-green'>
+<a class="card-link mixpanel" data-mixpanel-source="cleaning_header_button" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/services/home-cleaning"></a>
+<div class='spray-icon'></div>
+<div class='button-title'>
+Home Cleaning
+</div>
+</div>
+<div class='cell medium-3 nav-button hover-handyman-teal'>
+<a class="card-link mixpanel" data-mixpanel-source="services_header_button" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/services/"></a>
+<div class='wrench-icon'></div>
+<div class='button-title'>
+All Services
+</div>
+</div>
+<div class='cell medium-3 nav-button hover-handy-blue'>
+<a class="card-link mixpanel" data-mixpanel-source="products_header_button" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="https://shop.handy.com"></a>
+<div class='shop-icon'></div>
+<div class='button-title'>
+The Home Shop
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id='popular-services'>
+<div class='grid-container'>
+<div class='grid-x grid-margin-x'>
+<div class='cell shrink'>
+<h2 class='show-for-medium'>
+Cleaning &amp; Handyman Tasks
+</h2>
+</div>
+<div class='cell hide-for-medium'>
+<h2>
+Book Services
+</h2>
+</div>
+</div>
+<div class='grid-x grid-margin-x'>
+<div class='cell shrink show-for-medium'>
+<div class='description'>
+Instantly book highly rated pros for cleaning and handyman tasks at an upfront price.
+</div>
+</div>
+<div class='cell hide-for-medium'>
+<div class='description'>
+Instantly book highly rated pros for cleaning and handyman tasks at an upfront price.
+</div>
+</div>
+<div class='cell auto see-all-link'>
+<a class="mixpanel float-right" data-mixpanel-source="services_see_all" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/services"><span>
+See All
+<i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</span>
+</a></div>
+</div>
+</div>
+<div class='grid-container'>
+<div class='grid-x grid-margin-x'>
+<div class='cell small-6 medium-3'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="services_card_1" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="home_cleaning" href="/services/home-cleaning"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img src="https://cache-landingpages.services.handy.com/assets/pages/services/homecleaner_image-fedc37eea62743f6da98a145bfc573e8e827c5e68ff13b935857c43fb7d97f37.png" alt="Homecleaner image" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Home Cleaning </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell small-6 medium-3'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="services_card_2" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="furniture_assembly" href="/services/furniture-assembly"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img src="https://cache-landingpages.services.handy.com/assets/pages/services/furniture_assembly_img-016e6663e768c07e91185c00ca737ee7292df33f15715f5e63d131155683a29b.png" alt="Furniture assembly img" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Furniture Assembly </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell small-6 medium-3'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="services_card_3" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="tv_mounting" href="/services/mount-tv"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img src="https://cache-landingpages.services.handy.com/assets/pages/services/tv_mounting_img-2c5add457f614fa27db18be961ac40cbe722e124bfb3e49c1105343adfab473b.png" alt="Tv mounting img" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>TV Mounting </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell small-6 medium-3'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="services_card_4" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="wall_hanging" href="/services/hanging-pictures-shelves"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img src="https://cache-landingpages.services.handy.com/assets/pages/services/hanging_img-7ef860782e6ceac45cba539ce96088fdfcd229a340905f2f45c5f66518d7f4f3.png" alt="Hanging img" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Wall Hanging </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id='shop_products'>
+<div class='grid-container'>
+<div class='grid-x grid-margin-x'>
+<div class='cell shrink show-for-medium'>
+<h2>
+<div>
+Home Furniture with Assembly Included
+</div>
+</h2>
+</div>
+<div class='cell hide-for-medium'>
+<h2>
+<div>
+Home Furniture with Assembly Included
+</div>
+</h2>
+</div>
+</div>
+<div class='grid-x grid-margin-x'>
+<div class='cell shrink show-for-medium'>
+<div class='description'>
+Everything you buy through Handy comes with free delivery and professional installation included.
+</div>
+</div>
+<div class='cell hide-for-medium'>
+<div class='description'>
+Everything you buy through Handy comes with free delivery and professional installation included.
+</div>
+</div>
+<div class='cell see-all-link auto'>
+<a class="mixpanel float-right" data-mixpanel-source="products_see_all" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="https://shop.handy.com"><span>
+See All
+<i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</span>
+</a></div>
+</div>
+</div>
+<div class='grid-container products-body'>
+<div class='grid-x grid-margin-x'>
+<div class='cell hide-for-medium medium-3 small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_1" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#beds"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/bed-284f2c4d6ebae30fd58ddc1db0d7d368fdd255c7b17c25ab803d4148981fcbd7.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Beds </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell medium-3 show-for-medium small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_1" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#beds"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/bed-284f2c4d6ebae30fd58ddc1db0d7d368fdd255c7b17c25ab803d4148981fcbd7.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Beds </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell hide-for-medium medium-3 small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_2" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#desks"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/desk-d03412ba1aca673b783f990e4ac4d0913b062734c3d7793f64b9e0a455c85592.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Desks </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell medium-3 show-for-medium small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_2" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#desks"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/desk-d03412ba1aca673b783f990e4ac4d0913b062734c3d7793f64b9e0a455c85592.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Desks </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell hide-for-medium medium-3 small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_3" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#dressers"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/dresser-c3fb649ec7738568873176b7f2eb6c98127cadede9cf3843025d501b58db0035.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Dressers </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell medium-3 show-for-medium small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_3" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#dressers"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/dresser-c3fb649ec7738568873176b7f2eb6c98127cadede9cf3843025d501b58db0035.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Dressers </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell hide-for-medium medium-3 small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_4" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#chandeliers"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/chandelier-6b5aeb0944d09c5746fdfa3585ce531aabebffe6a6d7e26bbb4e00c8cecd401e.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Chandeliers </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class='cell medium-3 show-for-medium small-6'>
+<div class='popular-card'>
+<a class="mixpanel card-link" rel="" data-mixpanel-source="products_card_4" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" data-mixpanel-machine-name="" href="https://shop.handy.com/#chandeliers"></a>
+<div class='card card-shadow'>
+<div class='thumbnail'>
+<img class="lazyload center-image" data-src="https://cache-landingpages.services.handy.com/assets/pages/services/chandelier-6b5aeb0944d09c5746fdfa3585ce531aabebffe6a6d7e26bbb4e00c8cecd401e.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='card-section'>
+<div class='card-body'>
+<div class='card-body-top'>
+<span>Shop Chandeliers </span><i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id='vetted-pros'>
+<div class='grid-container'>
+<div class='grid-x grid-margin-x'>
+<div class='cell small-12'>
+<div class='cell vetted-pros-container'>
+<div class='cell'>
+<img class="vetted-pros-icon lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/vetted-pros-icon-3fd36f412a73566cd256ed1dc0c8d0b3addd067ff7d421e55d7b8b0b221ceaf0.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<div class='vetted-pros-title'>
+Vetted, Screened Professionals
+</div>
+</div>
+<div class='cell vetted-pros-text'>
+Cleaning and handyman tasks booked and paid for through Handy are performed by experienced, vetted providers who are highly rated by customers like you.
+<a class="mixpanel" data-mixpanel-source="trust_safety" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/trust-and-safety">Learn more.</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id='happiness-guarantee'>
+<div class='grid-container'>
+<div class='grid-x grid-margin-x happiness-guarantee-grid'>
+<div class='cell medium-4 small-12 left-side'>
+<div class='cell happiness-guarantee-container'>
+<div class='cell'>
+<img class="happiness-guarantee-icon lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/happiness_icon-dfe72053950ba07827e8c4425fc9e07c5851335f17afdf1d6d9caaafb06f2a9a.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='cell'>
+<div class='cell your-happiness-guaranteed'>
+Your Happiness, Guaranteed
+</div>
+<div class='cell your-happiness-text'>
+Your happiness is our goal. If you’re not happy, we’ll work to make it right. Our friendly customer service agents are available 24 hours a day, 7 days a week. The Handy Happiness Guarantee only applies when you book and pay for a service directly through the Handy platform.
+<br>
+<a class="mixpanel" data-mixpanel-source="happiness_guarantee" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/handy-guarantee">Learn more.</a>
+</div>
+</div>
+</div>
+</div>
+<div class='cell medium-auto'></div>
+</div>
+</div>
+</section>
+
+<section id='download-app'>
+<div class='grid-container'>
+<div class='grid-x align-middle'>
+<div class='cell small-12 medium-6 download-app-container'>
+<div class='cell get-handy-app-title'>
+Get the Handy App
+</div>
+<div class='cell download-app-paragraph'>
+Book and manage appointments, message your pro, view pro profiles and ratings, see real-time location of your pro and so much more.
+</div>
+<div class='grid-x margin-x send-link-container'>
+<div class='cell download-app-badge'>
+<a class="mixpanel" data-mixpanel-source="app_download_app_store" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="https://handy.app.link/app"><img class="lazyload" data-src="https://cache-landingpages.services.handy.com/assets/apple-store-d6493fac1eadd81b56ec7378e97e7277c1e5d3ba97b9e0594aa5d88d43bfe634.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></a>
+</div>
+<div class='cell download-app-badge'>
+<a class="mixpanel" data-mixpanel-source="app_download_play_store" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="https://handy.app.link/app"><img class="lazyload" data-src="https://cache-landingpages.services.handy.com/assets/google-play-54740bb2fdf9a8f3c8721c859ce30df0c4c938b9e841db6bd91bfeb8c248aaac.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></a>
+</div>
+</div>
+</div>
+<div class='cell medium-4 medium-offset-2 show-for-medium download-app-photo'></div>
+</div>
+</div>
+</section>
+
+<section id='featured-collection'>
+<div class='grid-container featured-collection-body'>
+<div class='grid-x grid-margin-x'>
+<div class='cell main medium-12'>
+<div class='shop-title'>
+Shop for your Home with Handy
+</div>
+</div>
+<div class='cell main medium-4'>
+<div class='shop-text'>
+Shop furniture, electronics, appliances, and more. Everything comes with expert installation by Handy.
+</div>
+<div class='shop-now'>
+<a class="handy-home-button shop-button color-perfect-blue mixpanel" data-mixpanel-source="marketing_banner" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="https://shop.handy.com"><div class='cell show-for-medium'>
+Shop All Home Products
+<i class='far fa-angle-right button-arrow fa-chevron-right'></i>
+</div>
+<div class='cell hide-for-medium'>
+Shop Now
+</div>
+</a></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id='become-pro'>
+<div class='grid-container'>
+<div class='grid-x align-middle'>
+<div class='cell small-12 medium-5 become-pro-container'>
+<div class='cell become-pro-title'>
+Are You a Five Star Pro?
+</div>
+<div class='cell become-pro-paragraph'>
+From cleaners to handymen to smart home installers, Handy is always looking for service professionals who are experts in their trade and provide great service to their customers. The best home service professionals use Handy to find jobs with no lead fees and flexible scheduling.
+</div>
+<div class='cell'>
+<a class="handy-home-button color-handy-blue mixpanel" data-mixpanel-source="apply_pro" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/apply">Become a pro
+</a></div>
+</div>
+<div class='cell medium-6 medium-offset-1 show-for-medium become-pro-photo'></div>
+</div>
+</div>
+</section>
+
+<section id='our-partnerships'>
+<div class='grid-container'>
+<div class='grid-x our-partnerships-container'>
+<div class='cell our-partnerships-title'>
+Our Partners
+</div>
+<div class='cell small-12 medium-10 medium-offset-1 our-partnerships-paragraph'>
+Handy works with partners who want to provide their customers, tenants, or employees easy access to quality home services at affordable prices.
+</div>
+<div class='cell small-12 grid-x partners-list'>
+<div class='cell medium-4'>
+<img class="partner-logo-image lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/wayfair_2x-ef915dd5b334d0fc46ca926a5cb741262335f725bd5643b3522f276e7d5a8084.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='cell medium-4'>
+<img class="partner-logo-image lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/walmart_2x-8a6db194706379ebce4916d4aad8192d437de109903b5fa9da697a1d086a7848.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='cell medium-4'>
+<img class="partner-logo-image lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/googlehome_2x-8c832ed9f499bce2b1a126469af62899f9a830c65f7dac6490d222ec62d4974f.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='cell medium-4 show-for-medium'>
+<img class="partner-logo-image lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/nest_2x-923a9e1e233ceb592ea124e3b7a7ea0fdc3b646d3ded505fae1f6f3e41ebd9e9.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='cell medium-4'>
+<img class="partner-logo-image lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/equity_2x-c325449d05716f8f9a7b801a38aca569550f55b9ae36c5d0f0d77e7871d091dd.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+<div class='cell medium-4 show-for-medium'>
+<img class="partner-logo-image lazyload" data-src="https://cache-landingpages.services.handy.com/assets/pages/home/leesa_2x-f3bfe6cb59a126e8dd56060593dc74f4d5d48c3cad346004a01a31d1c901a131.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</div>
+</div>
+<div class='cell partner-with-handy'>
+<a class="handy-home-button color-handy-blue mixpanel" data-mixpanel-source="partners" data-mixpanel-event="home_page_cta" data-mixpanel-event-context="home_page" data-mixpanel-trigger="click" href="/retail">Partner with Handy
+</a></div>
+</div>
+</div>
+</section>
+
+</div>
+<div class='grid-container custom-link'>
+<div class='grid-x'>
+<div class='cell'>
+<p>
+<a href='/services/all'>
+Popular Searches
+</a>
+</p>
+<div class='cell small-12 grid-x align-middle'>
+<div class='cell large-4 link-panel'>
+<ul>
+<li><a href="https://www.handy.com/services/cleaning-service/washington-dc">cleaning services dc</a></li>
+<li><a href="https://www.handy.com/services/maid-service/san-antonio">san antonio maid service</a></li>
+<li><a href="https://www.handy.com/services/maid-service/los-angeles">maid service los angeles</a></li>
+<li><a href="https://www.handy.com/services/maid-service/new-york">maid service nyc</a></li>
+<li><a href="https://www.handy.com/services/maid-service/chicago">chicago maids</a></li>
+<li><a href="https://www.handy.com/services/home-cleaning/houston">house cleaning service houston</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/las-vegas">cleaning services las vegas</a></li>
+<li><a href="https://www.handy.com/services/maid-service/seattle">maid service seattle</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/miami">cleaning service miami</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/los-angeles">cleaning service la</a></li>
+</ul>
+</div>
+<div class='cell large-4 link-panel'>
+<ul>
+<li><a href="https://www.handy.com/services/move-out-in-cleaning/houston">houston move out cleaning</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/chicago">chicago cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/san-diego">san diego cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/boston">boston cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/seattle">seattle cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/">cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/philadelphia">philadelphia cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/pittsburgh">pittsburgh cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/san-jose">san jose cleaning service</a></li>
+<li><a href="https://www.handy.com/services/housekeeping/los-angeles">los angeles housekeeping</a></li>
+</ul>
+</div>
+<div class='cell large-4 link-panel'>
+<ul>
+<li><a href="https://www.handy.com/services/apartment-cleaning/chicago">chicago apartment cleaning</a></li>
+<li><a href="https://www.handy.com/services/home-cleaning/chicago">house cleaning service chicago</a></li>
+<li><a href="https://www.handy.com/services/maid-service/las-vegas">las vegas maids</a></li>
+<li><a href="https://www.handy.com/services/home-cleaning/seattle">seattle house cleaning service</a></li>
+<li><a href="https://www.handy.com/services/home-cleaning/phoenix">phoenix house cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/phoenix">phoenix cleaning service</a></li>
+<li><a href="https://www.handy.com/services/cleaning-service/tampa">tampa cleaning service</a></li>
+<li><a href="https://www.handy.com/services/home-cleaning/dallas">dallas house cleaning</a></li>
+<li><a href="https://www.handy.com/services/home-cleaning/sacramento">house cleaning sacramento</a></li>
+<li><a href="https://www.handy.com/services/housekeeping">housekeeping</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</main>
+<footer role='contentinfo'>
+
+<script class="handy-analytics" id="bright_tagjs">
+  window.pageData = {};
+
+  (function() {
+    var btjs = document.createElement('script'), s = document.getElementsByTagName('script')[0];
+    btjs.async = true;
+    btjs.src = '//s.btstatic.com/tag.js#site=FT5eU6D';
+    s.parentNode.insertBefore(btjs, s);
+  }());
+</script>
+
+<noscript>
+  <iframe src="//s.thebrighttag.com/iframe?c=FT5eU6D" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+<script src="https://cache-landingpages.services.handy.com/packs/application-4b3cbb755f5aef584018.js"></script>
+<section id='crumbs'>
+<div class='grid-container'>
+<div class='grid-x align-center crumbs'>
+<div class='cell crumbs__content'>
+<ul class='breadcrumbs'>
+<li>
+<i class='fa fa-home'></i>
+<a href="/">Home</a>
+<li>homepage</li>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id='footer'>
+<div class='grid-container'>
+<div class='grid-x align-center footer'>
+<div class='cell grid-x footer__navigation hide-for-small-only'>
+<nav class='cell grid-x small-5'>
+<ul class='menu vertical'>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='happiness_guarantee' data-mixpanel-trigger='click' href='/handy-guarantee'>The Handy Happiness Guarantee</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='about' data-mixpanel-trigger='click' href='/about'>About</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='press' data-mixpanel-trigger='click' href='/press'>Press</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='careers' data-mixpanel-trigger='click' href='/careers'>Careers</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='blog' data-mixpanel-trigger='click' href='/blog'>Blog</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='help' data-mixpanel-trigger='click' href='/help'>Help</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='help' data-mixpanel-trigger='click' href='/help'>Contact Us</a>
+</li>
+<br>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='apply' data-mixpanel-trigger='click' href='/apply?utm_source=home_footer'>Be a Professional</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='retail' data-mixpanel-trigger='click' href='/retail'>Retail Partnerships</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='scholarship' data-mixpanel-trigger='click' href='/scholarship'>Scholarship</a>
+</li>
+</ul>
+</nav>
+<nav class='cell grid-x small-4'>
+<ul class='menu vertical'>
+<li class='menu-text'>LOCATIONS</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_boston' data-mixpanel-trigger='click' href='/services/home-cleaning/boston'>Boston</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_chicago' data-mixpanel-trigger='click' href='/services/home-cleaning/chicago'>Chicago</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_london' data-mixpanel-trigger='click' href='/services/home-cleaning/london'>London</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_los_angeles' data-mixpanel-trigger='click' href='/services/home-cleaning/los-angeles'>Los Angeles</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_new_york' data-mixpanel-trigger='click' href='/services/home-cleaning/new-york'>New York</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_san_francisco' data-mixpanel-trigger='click' href='/services/home-cleaning/san-francisco'>San Francisco</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_toronto' data-mixpanel-trigger='click' href='/services/home-cleaning/toronto'>Toronto</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations_vancouver' data-mixpanel-trigger='click' href='/services/home-cleaning/vancouver'>Vancouver</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='locations' data-mixpanel-trigger='click' href='/locations'>See all locations</a>
+</li>
+<li id='locale'>
+<form action="/country_select" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<select name="request_country" id="request_country" onchange="this.form.submit()"><option selected="selected" value="US">United States</option>
+<option value="CA">Canada</option>
+<option value="GB">United Kingdom</option></select>
+</form>
+
+</li>
+</ul>
+</nav>
+<nav class='cell grid-x small-3'>
+<ul class='menu vertical'>
+<li class='menu-text'>POPULAR SERVICES</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='services_home_cleaning' data-mixpanel-trigger='click' href='/services/home-cleaning'>Cleaning</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='services_other_handyman_service' data-mixpanel-trigger='click' href='/services/other-handyman-service'>Handyman</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='other_plumbing' data-mixpanel-trigger='click' href='/services/other-plumbing'>Plumbing</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='services_other_electrical' data-mixpanel-trigger='click' href='/services/other-electrical'>Electrical</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='services_moving_help' data-mixpanel-trigger='click' href='/services/moving-help'>Moving Help</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='services_painting' data-mixpanel-trigger='click' href='/services/painting'>Painting</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='services_furniture_assembly' data-mixpanel-trigger='click' href='/services/furniture-assembly'>Furniture Assembly</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='services' data-mixpanel-trigger='click' href='/services'>See all services</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class='cell grid-x footer__stores hide-for-small-only'>
+<a href="https://handy.app.link/app"><img class="lazyload" data-src="https://cache-landingpages.services.handy.com/assets/app-store-badge-4a71a8c7f185bad9ad8653a3267dafec0a9a649da7d5764c582fec70b8dc9f45.svg" data-alt="Download from Apple Store" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></a>
+<a href="https://handy.app.link/app"><img class="lazyload" data-src="https://cache-landingpages.services.handy.com/assets/play-store-badge-49e311a794277c754af75084413fbc788682c55ad83b651c681c99d6197c6bc1.svg" data-alt="Download from Google Play Market" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /></a>
+</div>
+<div class='cell grid-x footer__social hide-for-small-only'>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='twitter' data-mixpanel-trigger='click' href='https://twitter.com/handy' target='_blank'>
+<i class='fab fa-twitter'></i>
+</a>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='facebook' data-mixpanel-trigger='click' href='https://facebook.com/handyhq' target='_blank'>
+<i class='fab fa-facebook'></i>
+</a>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='instagram' data-mixpanel-trigger='click' href='http://instagram.com/handy_hq' target='_blank'>
+<i class='fab fa-instagram'></i>
+</a>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='wikipedia' data-mixpanel-trigger='click' href='https://en.wikipedia.org/wiki/Handy_(company)' target='_blank'>
+<i class='fab fa-wikipedia-w'></i>
+</a>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='linkedin' data-mixpanel-trigger='click' href='https://www.linkedin.com/company/handyhq' target='_blank'>
+<i class='fab fa-linkedin'></i>
+</a>
+<a class='mixpanel fa-cb' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='crunchbase' data-mixpanel-trigger='click' href='https://crunchbase.com/organization/handybook' target='_blank'></a>
+</div>
+<div class='cell grid-x footer__interlinks'>
+<div class='cell grid-x headline'>Other Handy Services</div>
+<div class='cell grid-x medium-5'>
+<ul class='menu vertical'>
+<li>
+<a href="https://www.handy.com/services/maid-service/london">best maid services in london</a>
+</li>
+<li>
+<a href="https://www.handy.com/services/cleaning-service/chicago">chicago cleaning services</a>
+</li>
+<li>
+<a href="https://www.handy.com/services/cleaning-service/baltimore">cleaning service in baltimore</a>
+</li>
+</ul>
+</div>
+<div class='cell grid-x medium-4'>
+<ul class='menu vertical'>
+<li>
+<a href="https://www.handy.com/services/cleaning-service/chicago">cleaning services in chicago</a>
+</li>
+<li>
+<a href="https://www.handy.com/services/home-cleaning/near-me">house cleaning service near me</a>
+</li>
+<li>
+<a href="https://www.handy.com/services/home-cleaning/tampa">house cleaning service tampa</a>
+</li>
+</ul>
+</div>
+<div class='cell grid-x medium-3'>
+<ul class='menu vertical'>
+<li>
+<a href="https://www.handy.com/services/housekeeping">housekeeping</a>
+</li>
+<li>
+<a href="https://www.handy.com/services/move-out-in-cleaning">move out cleaning service</a>
+</li>
+<li>
+<a href="https://www.handy.com/services/office-cleaning/new-york">nyc office cleaning services</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div class='cell grid-x footer__lower-footer footer-term-links'>
+<div class='cell grid-x medium-shrink lower-menu'>
+<ul class='menu'>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='contact' data-mixpanel-trigger='click' href='/help'>Contact</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='privacy' data-mixpanel-trigger='click' href='/privacy'>Privacy</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='ccpa' data-mixpanel-trigger='click' href='/privacy#section5a'>CA Pre-Collection Notice</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='do_not_sell' data-mixpanel-trigger='click' href='/do_not_sell'>Do Not Sell or Share My Personal Information</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='cookies' data-mixpanel-trigger='click' href='/cookies'>Cookies</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='terms' data-mixpanel-trigger='click' href='/terms'>Terms</a>
+</li>
+<li>
+<a class='mixpanel' data-mixpanel-event-context='footer_refinery' data-mixpanel-event='footer_cta' data-mixpanel-source='cancellation_policy' data-mixpanel-trigger='click' href='https://help.handy.com/hc/en-us/articles/215568487-What-s-the-cancellation-policy-'>Cancellation Policy</a>
+</li>
+</ul>
+</div>
+<div class='cell grid-x medium-auto align-right copy'>
+<div class='lower-attribution'>
+<span>
+2023 Handy. All rights reserved.
+</span>
+<strong>
+Handy powered by Angi
+</strong>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- BEGIN TRACERS -->
+<!-- handy_request_trace_id=3c5d868aba778c0598d81dc90c04fa63 -->
+<!-- handy_user_trace_id=CsoeBWSRy1lpcQAHkMOhAg== -->
+<!-- END TRACERS -->
+
+
+</footer>
+</div>
+</div>
+</body>
+</html>

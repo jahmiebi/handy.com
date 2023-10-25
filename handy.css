@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+}
+nav{
+    width: 100%;
+    display: flex;
+    padding: 2px 3%;         
+}
+.logo img{
+  margin-top: 0.4rem;
+  padding-right: 1rem;
+  width: 5.3125rem;
+  height: 3.25rem;
+}
+.navlist1{
+    display: flex;
+}
+.navlist1 li a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlist2{
+    display: flex;
+    
+}
+.navlist2 li a{
+    color: #434343;
+    
+}
+.main{
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    font-weight: 500px;
+    
+}
+
+.home {
+    display: flex;
+    gap: 3.5rem;
+    margin-top: 40px;
+}
+.H1 a{
+    display: flex;
+    box-shadow: 1px 2px 3px #00000065;
+    
+}
+
+.H1 a p{
+    padding: 20px;
+
+}
+
+
+#spray{
+    color: aliceblue;
+    padding: 20px;
+    background-color:#8BC53E;
+    font-size: 20px;
+}
+#wrench{
+    color: aliceblue;
+    padding: 20px;
+    background: #43D1B8;
+    font-size: 20px;
+}
+#cart{
+    color: aliceblue;
+    padding: 20px;
+    background-color:#00CDED;
+    font-size: 20px;
+}
+.task{
+    padding: 19px;
+    margin-right: 20%;
+    margin-top: 80px;
+    
+
+    
+}
+.clean{
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 20px;
+}
+
+.box img{
+    width: 255px;
+}
+.clean{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+
+.box{
+    width: 255px;
+    height: 199.9px;
+    box-shadow: 1px 2px 3px #00000065;
+}
+.box p{
+    padding-left: 70px;
+    font-size: 0.9rem;
+    /* padding-top: 7px; */
+}
+.jah{
+    margin-left:60px;
+}
+.dad{
+    color: #434343;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ivan{
+    display: flex;
+    
+}
+.blessed{
+    width: 255px;
+    height: 199.9px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blessed p{
+    padding-left: 60px;
+    font-size: 0.9rem;
+
+    
+}
+.ivan{
+    width: 255px;
+    height: 199.9px;
+    box-sizing: border-box;
+}
+.vett{
+    width: 100%;
+    background: #f4f4f4;
+    padding: 50px;
+    height: fit-content;
+    margin-top: 120px;
+   
+}
+
+.vetted{
+    justify-content: center;
+    text-align: center;
+    padding: 2px 3%;
+    display: flex;
+    font-size:30px;
+}
+
+.vetted img {
+ margin-right: 10px;
+ width: 30px;
+}
+
+.vetted-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100%;
+}
+.vetted-text{
+    text-align: center;
+    display: block;
+    font-size: small;
+}
+.rated{
+    margin-top: 40px;
+    margin-right: 10%;
+    
+}
+.blessing{
+    font-size: 35px;
+    padding: 20px;
+    margin-right: 10%;
+    color: #434343;
+    font-style: normal;
+    font-weight: bold;
+}
+.mum{
+    font-style:100%;
+    margin-top: 5.5%;
+}
+.dad{
+    margin-bottom: 2.5%;
+    font-size: 32px;
+}
+.tami{
+    font-size: 32px;
+    margin-right: 60px;
+    color: #434343;
+    
+
+}
+.prisca{
+    color: #fff;
+    display: flex;
+}
+
+.text {
+    background-color: #234B84;
+    padding: 40px;
+    height: 540px;
+}
+
+.daddy img {
+    width: 900px;
+}
+
+
+/* .hapy{
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+/* .happiness{
+    color: #fff;
+    margin-top: 20px;
+}
+.your-happiness-guaranteed{
+    font-size: 2rem;
+
+}  */
+
+
+
+.get{
+    display: flex; 
+    padding: 40px;
+    gap: 50px;
+} 
+
+.gettext {
+ margin: 80px 300px 0 0;
+}
+
+.app{
+    color: #434343;
+    font-size: 35px;
+    font-weight: 100;
+    
+}
+
+.png{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.phone {
+    margin-right: 100px;
+}
+
+.container{
+    padding: 5%;
+    color: #434343;
+    font-size: 32.5px;
+}
+.more{
+    padding-left: 5%;
+}
+.h3{
+    padding-left: 5%;
+    line-height: 56px;
+    text-align: center;
+    font-size: 1.125rem;
+    border-color: #234B84;
+    margin-top: 1000px;
+}
+
+
+
+
+.become-a-pro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.become {
+    margin-top: 150px;
+    padding-right:200px;
+    margin-left: 50px;
+    color: #434343;
+    font-weight: 10px;
+    
+}
+.button{
+    background-color: #00CDED;
+    height: 56px;
+    width: 256px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff; 
+    margin-top: 5.5%;
+    border: none;
+}
+
+.cleaner{
+    padding-top: 4.5%;
+}
+.top{
+    background:#F4F4F4; 
+    width: 100%;
+    padding: 15%;
+   
+}
+.partners{
+   color: #434343;
+   font-size: 30px;
+   text-align: center;
+}
+.cache{
+    display: flex;
+    width: 300px;
+    height: 40px;
+   
+}
+.landing{
+    display: flex;
+    width: 300px;
+    height: 40px;
+}
+.with{
+    background-color: #00CDED;
+    height: 56px;
+    width: 256px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff; 
+    margin-top: 5.5%;
+    border: none;
+   
+}
+.popular{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
